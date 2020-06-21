@@ -1,0 +1,100 @@
+// for home slider component
+
+.slide1 {
+  color: $WhiteColor;
+  h1 {
+    font-weight: bold;
+  }
+  .slides {
+    transition: $transition;
+    padding: 10px 20px;
+    color: $WhiteColor;
+  }
+  .slides,p{
+    font: 400 21px "Roboto Slab";
+    background-color: $DarkColor;
+  }
+  .slides:hover {
+    color: $DarkColor;
+    background-color: $WhiteColor;
+  }
+  p {
+    padding: 5px 10px;
+    width: fit-content;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sign{
+    padding: $padding;
+    a{
+        color: $colorBlack;
+        img{
+        width: $width;
+        height: $height;
+         }
+         .left{
+        @include logoColor($colorOrange ,$colorWhite);
+        }
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+.mainDataForm{
+    .input-group{
+       margin: $marginMaindata;
+       box-shadow: $box-colorMaindata   2px 2px 3px;
+       border-radius: $box-radiusMaindata;
+   }
+   .mainData{
+       border:$box-colorMaindata  solid 2px;
+       box-shadow: $box-colorMaindata  5px 5px 5px;
+       border-radius: 5px;
+       margin-bottom: 20px;
+   }
+   .mainData:hover{
+       transition: all 1s ease;
+       transform: scale(1.022);
+   }
+}
+
+.disappearNumberArrows{
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+    }
+
+    input[type=number] {
+        -moz-appearance:textfield; /* Firefox */
+    }
+}
+.border{
+    .formBorder{
+        border: $borderWidth $borderType $colorDark;
+        border-radius: $border-radius;
+        box-shadow:  $colorDark $box-shadow $box-shadow $box-shadow;
+        padding: $formpadding;
+        margin-bottom: $formmargin;
+    }
+}
+
+.required-field >label::after{
+    content:$content;
+    color: $colorRed;
+    margin-left:$marginL;
+    }

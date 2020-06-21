@@ -1,0 +1,17 @@
+.logo{
+    img {
+        width: $LogoImgWidth;
+        height: $LogoImgHeight;
+      }
+      p{
+          font : $LogoPFont;
+          color: $DarkColor;
+          transition: $LogoPTransition;
+      }
+      a:hover,img:hover{
+          p{
+              color:$SecondaryColor ;
+            }
+        text-decoration: $LogoATextdecoration;
+      }
+}

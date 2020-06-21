@@ -1,0 +1,132 @@
+.searchButton{
+  .close{
+    color: $WhiteColor;
+    font-size: $LowerHeaderRightModalBKCloseFont;
+  }
+  .input-search{
+    color: $WhiteColor;
+    transition: $LowerHeaderNavTransition;
+  }
+  .input-search:hover,.btn,.input-group{
+  color: $DarkColor;
+  box-shadow: $LowerHeaderRightModalBKNone;
+  margin-bottom: $LowerHeaderRightModalBKMargin;
+  }
+  .form-control{
+    color: $WhiteColor;
+    background-color: transparent;
+    border-radius: $LowerHeaderRightModalBKBorderRaduis;
+    cursor: default;;
+    border:$LowerHeaderRightModalBKNone;
+  }
+  .form-control:focus{
+      box-shadow: $LowerHeaderRightModalBKBoxShadow;
+  }
+  hr{
+    border-top:$LowerHeaderRightModalBKBorderTop;
+    margin:$LowerHeaderRightModalBKMargin;
+  }
+  ::-webkit-input-placeholder,:-moz-placeholder,::-moz-placeholder,:-ms-input-placeholder ,::-ms-input-placeholder ,::placeholder{
+    color: $WhiteColor;
+  }
+}
+
+
+.btnSign{
+    background-color:$colorOrange ;
+    color: $colorWhite;
+}
+
+.AdminButton{
+    .logout{
+        border: 2px solid $colorOrange;
+        color: $colorOrange;
+        content: 'Admin';
+    }
+    .logout:hover{
+        background-color: $colorOrange;
+        color: $colorWhite;
+        content: 'Logout';
+    }
+    .logout:hover:before {
+    content: "Logout"
+    }
+
+    .logout:after {
+    content: "Admin"
+    }
+
+    .logout:hover:after {
+    content: ""
+    }
+}
+.submitButton{
+    font-family: Avenir, sans-serif;
+    color:$colorDark;
+    // button {
+    //     text-decoration: none;
+    //     color: inherit;
+    //     background:white;
+    //       border:none;
+    //   }
+      button:focus{
+          border:none;
+          outline: none;
+      }
+      
+      .cta {
+        position: relative;
+        margin: auto;
+        padding: 19px 22px;
+        transition: all 0.2s ease;
+        display: block;
+        margin: 20px auto;
+      }
+      .cta:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 28px;
+        background: rgba(251, 229, 28, 0.5);
+        width: 56px;
+        height: 56px;
+        transition: all 0.3s ease;
+      }
+      .cta span {
+        position: relative;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 900;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        vertical-align: middle;
+      }
+      .cta svg {
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: $colorDark;
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all 0.3s ease;
+      }
+      .cta:hover:before {
+        width: 100%;
+        background: $colorOrange;
+      }
+      .cta:hover svg {
+        transform: translateX(0);
+      }
+      .cta:active {
+        transform: scale(0.96);
+      }
+      .btn:active{
+        border:0px solid white;
+        outline: white;
+    }
+}
