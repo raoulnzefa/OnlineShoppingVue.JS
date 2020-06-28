@@ -37,6 +37,7 @@
     "vue-axios": "^2.1.5",
     "vue-data-tables": "^3.4.5",
     "vue-form": "^4.10.3",
+    "vue-slick-carousel": "^1.0.5",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

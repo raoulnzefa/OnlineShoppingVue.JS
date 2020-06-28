@@ -3,6 +3,18 @@
     padding: $padding;
 }
 
+@mixin anchor($textDecoration,$color){
+	text-decoration: $textDecoration;
+	color:$color;
+}
+
+
+
+
+
+
+
+
 @mixin navbarStyle($transition,$color,$hovercolor,$font){
 	.nav-link{
 		transition:$transition;

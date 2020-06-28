@@ -1,0 +1,30 @@
+
+// for home part 1
+$HomePart1BorderRaduis:10px;
+$HomePart1Margin:-100px 10px 120px 10px;
+$HomePart1TextDecoration:none;
+$HomePart1TextsMargin:auto;
+$HomePart1ImgMargin:10px 0;
+$HomePart1Scale:scale(1.05);
+
+
+// for home feature
+$HomeFeatureTextalign:center; 
+$HomeFeatureFont:700 35px "Roboto Slab",'Lucida Sans Typewriter',serif;
+$HomeFeaturePadding :30px;
+$HomeFeatureBackground :url(./../../../assets/HomePhotos/Feature/bottom.png) no-repeat bottom;
+$HomeFeatureAPadding :20px;
+$HomeFeatureATextalign :center;
+$HomeFeaturePFontWeight :bold;
+
+// for home  Brands
+$HomeBrandDivOutline:none;
+$HomeBrandDivWidth:90%;
+$HomeBrandImgMargin :auto;
+
+// for home  Notified
+$HomeNotifiedTextAligh:center;
+$HomeNotifiedLetterspace:-1px;
+$HomeNotifiedFontSize:25px;
+$HomeNotifiedInput:none;
+$HomeNotifiedBtnMargin:-30px;

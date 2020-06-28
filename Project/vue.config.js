@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/vue-deploy/',
+  // publicPath: '/vue-deploy/',
   css: {
     loaderOptions: {
       sass: {
